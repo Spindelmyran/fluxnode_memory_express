@@ -1,0 +1,21 @@
+{
+   "name": "fluxnode.se",
+   "description": "paint show",
+   "version": "0.0.1-31",
+   "private": true,
+   "dependencies": {
+      "express": "3.x"
+   },
+   "scripts": {
+      "start": "server.js"
+   },
+   "engines": {
+      "node": "0.10.x",
+      "npm": "1.4.3"
+   },
+   "subdomain": "fluxnode",
+   "domains": [
+      "fluxnode.se",
+      "www.fluxnode.se"
+   ]
+}
